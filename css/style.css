@@ -36,6 +36,7 @@ body {
 .input-search {
     background-image: url(../img/search.svg);
     width: 300px;
+    margin-left: auto;
 }
 .button {
     padding: 8px 16px;
@@ -51,6 +52,9 @@ body {
     background: #1890FF;
     border: 1px solid #D9D9D9;
     color: #fff;
+    margin-right: 10px;
+}
+.button-card-text{
     margin-right: 10px;
 }
 .button-icon {
@@ -88,7 +92,6 @@ body {
 .section-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 44px;
 
 }
@@ -99,6 +102,7 @@ body {
     line-height: 42px;
     color: #000000;
     margin: 0;
+    margin-right: 30px;
 
 }
 .cards {
@@ -114,8 +118,18 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
     flex-basis: 30%;
+    text-decoration: none;
 }
-
+.card-price-bold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 30px;
+}
+.card-buttons{
+    display: flex;
+    align-items: center;
+}
 .card-image {
     width: 384px;
     height: 250px;
@@ -138,6 +152,9 @@ body {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px
+}
+.card-title-reg{
+    font-weight: 400;
 }
 .card-tag {
 font-style: normal;
@@ -173,6 +190,14 @@ padding: 1px 8px;
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: 150px;
+}
+.ingredients{
+    color: #8C8C8C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 10px 0;
 }
 .price {
     margin-right: 10px;
@@ -341,6 +366,7 @@ margin-left: 10px;
     }
     .section-heading{
         flex-wrap: wrap;
+
     }
     .footer{
         flex-wrap: wrap;
